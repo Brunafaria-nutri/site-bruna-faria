@@ -1,0 +1,59 @@
+/* ===== GERAL ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#FAF7F4;
+    color:#444;
+    line-height:1.8;
+}
+
+/* ===== MENU ===== */
+
+.navbar{
+    padding:18px 0;
+}
+
+.navbar-brand{
+    font-family:'Playfair Display',serif;
+    font-size:30px;
+    color:#8D5A63 !important;
+    font-weight:700;
+}
+
+.nav-link{
+    color:#555 !important;
+    margin-left:20px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#B77A84 !important;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+    padding:140px 0 90px;
+}
+
+.subtitulo{
+    color:#B77A84;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-size:14px;
+}
+
+.hero h1{
+    font-family:'Playfair Display',serif;
+    font-size:55px;
+    margin:
